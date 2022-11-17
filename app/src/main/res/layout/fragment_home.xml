@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="homefragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="416dp"
+            android:layout_height="141dp"
+            android:src="@drawable/devices"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#E0D8F5"
+            app:cardCornerRadius="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:text="@string/helmet"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/helmetImage"
+                android:layout_width="189dp"
+                android:layout_height="129dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60sp"
+                android:padding="20sp"
+                android:src="@drawable/sm2" />
+
+            <Button
+                android:id="@+id/helmetBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:padding="10dp"
+                android:background="@drawable/loginbtn"
+                android:text="Button" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:backgroundTint="#E0D8F5"
+            app:cardCornerRadius="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_horizontal"
+                android:text="@string/sleep_detector"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/sdimage"
+                android:layout_width="208dp"
+                android:layout_height="139dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60sp"
+                android:padding="20sp"
+                tools:src="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/sdbtn"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/loginbtn"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>

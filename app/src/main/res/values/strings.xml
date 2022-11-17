@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ROBO2</string>
+    <string name="robo">ROBO</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_registered_sign_in">Already Registered?Sign In</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">password</string>
+    <string name="not_registered_sign_up">Not Registered? Sign up</string>
+    <string name="sign_in">sign in</string>
+    <string name="email">email</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="signed">signed</string>
+    <string name="already_have_an_account_login">already have an account login</string>
+    <string name="login">login</string>
+    <string name="don_t_have_an_account_sign_in">don\'t have an account sign in</string>
+    <string name="job_well_done">JOB WELL DONE</string>
+    <string name="home">HOME</string>
+    <string name="account">ACCOUNT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="helmet">Helmet</string>
+    <string name="sleep_detector">Sleep detector</string>
+    <string name="title_activity_helmet">helmet</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
